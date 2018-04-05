@@ -1,0 +1,32 @@
+
+<div>
+   <img width="100" src="../assets/PHOTOS/logo.png"><h1 style="float:left">ShopHere</h1>
+</div>
+
+<br>
+
+<div class="header" ng-app="myApp" ng-controller="charactersCtrl">
+<ul>
+  <li><a routerLink="home">Home</a></li>
+  <li><a routerLink="categories">Categories</a></li>
+  <li><a routerLink="about">About</a></li>
+  <li style="float:right">
+    <input [(ngModel)]="searchText" placeholder="Search..">
+    <ul>
+      <li>
+      <select>
+        <option *ngFor="let c of characters | filter : searchText" >
+          {{c}}
+        </option>  
+      </select>
+    </li>
+      </ul>
+  </li>
+  
+</ul>
+</div>
+
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,56 @@
+
+.header {
+    background: rgb(34, 33, 33) ;
+    text-align: left;
+    padding: 7px;
+    font-family: 'Raleway', 'Arial';
+    color : rgb(228, 235, 240)
+}
+
+h1{
+    font-family: 'Raleway', 'Arial';
+    color : #222222;
+    position: relative;
+    font-size:100px;
+
+}
+
+form {
+    float: "right";
+}
+
+input[type=text] {
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: ('../assets/PHOTOS/searchicon.png');
+    background-position: 20px 20px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 150%;
+}
+
+option {
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: ('../assets/PHOTOS/searchicon.png');
+    background-position: 20px 20px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
